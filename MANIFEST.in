@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dvcom *.css
+recursive-include dvcom *.csv
+recursive-include dvcom *.html
+recursive-include dvcom *.ico
+recursive-include dvcom *.js
+recursive-include dvcom *.json
+recursive-include dvcom *.md
+recursive-include dvcom *.png
+recursive-include dvcom *.py
+recursive-include dvcom *.svg
+recursive-include dvcom *.txt
+recursive-exclude dvcom *.pyc
